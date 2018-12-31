@@ -6,9 +6,8 @@
 <?import javafx.scene.shape.Circle?>
 <?import javafx.scene.shape.Line?>
 
-<AnchorPane id="AnchorPane" prefHeight="200" prefWidth="327.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="leddisplay2.FXMLDocumentController">
+<AnchorPane id="AnchorPane" prefHeight="155.0" prefWidth="327.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="leddisplay2.FXMLDocumentController">
     <children>
-        <Button fx:id="buttonDisplayNumber" layoutX="223.0" layoutY="100.0" onAction="#handleButtonDisplayNumberAction" prefHeight="25.0" prefWidth="74.0" text="Number" />
         <Pane fx:id="displayPane" layoutX="9.0" layoutY="16.0" prefHeight="45.0" prefWidth="309.0" style="-fx-background-color: #1F0000;">
             <children>
                 <Pane layoutX="5.0" layoutY="4.0" prefHeight="36.0" prefWidth="19.0" style="-fx-background-color: #3F1F1F;">
@@ -193,7 +192,8 @@
                 </Pane>
             </children>
         </Pane>
-      <Button fx:id="buttonDisplayNone" layoutX="32.0" layoutY="100.0" onAction="#handleButtonDisplayNoneAction" prefHeight="25.0" prefWidth="74.0" text="NONE" />
-      <Button fx:id="buttonDisplayAll" layoutX="127.0" layoutY="100.0" onAction="#handleButtonDisplayAllAction" prefHeight="25.0" prefWidth="74.0" text="ALL" />
+        <Button fx:id="buttonDisplayNone" layoutX="32.0" layoutY="100.0" onAction="#handleButtonDisplayNoneAction" prefHeight="25.0" prefWidth="74.0" text="NONE" />
+        <Button fx:id="buttonDisplayAll" layoutX="127.0" layoutY="100.0" onAction="#handleButtonDisplayAllAction" prefHeight="25.0" prefWidth="74.0" text="ALL" />
+        <Button fx:id="buttonDisplayNumber" layoutX="223.0" layoutY="100.0" onAction="#handleButtonDisplayNumberAction" prefHeight="25.0" prefWidth="74.0" text="Number" />
     </children>
 </AnchorPane>
